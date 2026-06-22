@@ -60,7 +60,7 @@ python -m pytest
 ## Browser build
 
 ```bash
-python -m pygbag .
+python -m pygbag --ume_block 0 --template web-template.tmpl .
 ```
 
 Open the local URL shown by Pygbag. The first browser load can take a little
