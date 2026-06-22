@@ -54,7 +54,7 @@ Run the automated tests with:
 
 ```bash
 pip install -r requirements-dev.txt
-pytest
+python -m pytest
 ```
 
 ## Browser build
